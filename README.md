@@ -22,6 +22,12 @@ The visualization and interactions are intended to answer the following question
 
 ## Sketches
 
+[![image](https://user-images.githubusercontent.com/447806/133938224-1bc1bfc5-3cd1-439e-a079-243d89931b48.png)](https://user-images.githubusercontent.com/447806/133938224-1bc1bfc5-3cd1-439e-a079-243d89931b48.png)
+
+[![image](
+https://user-images.githubusercontent.com/447806/133938231-ae7a1b6b-bd14-46a2-b126-a578d11f0b41.png)](
+https://user-images.githubusercontent.com/447806/133938231-ae7a1b6b-bd14-46a2-b126-a578d11f0b41.png)
+
 
 ## Open Questions
 
