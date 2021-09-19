@@ -1,8 +1,8 @@
-# Data Visualization Project
+# Data Visualization Project CS573 Fall 2021 Peter Cordone
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is electrical usage data for multiple accounts for two years by month.  The dataset can be found here https://gist.github.com/pcordone/93039d5d909fbf42838c5167219d6ed4.
 
 ## Prototypes
 
