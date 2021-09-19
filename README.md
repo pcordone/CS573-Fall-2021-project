@@ -32,6 +32,7 @@ By rendering the bars as rectangular instead of pie shaped, the issue of the are
 https://user-images.githubusercontent.com/447806/133938231-ae7a1b6b-bd14-46a2-b126-a578d11f0b41.png)](
 https://user-images.githubusercontent.com/447806/133938231-ae7a1b6b-bd14-46a2-b126-a578d11f0b41.png)
 
+I would also like to add interactivity where the user can select accounts to show, adjust the period the circumference covers, and select wheter to show net metering credits or not.
 
 ## Open Questions
 
