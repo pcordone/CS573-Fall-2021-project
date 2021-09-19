@@ -22,6 +22,8 @@ The visualization and interactions are intended to answer the following question
 
 ## Sketches
 
+This visualization sketch shows a bar graph wrapped around a circle representing the usage for the 12 months of the year.  
+
 [![image](https://user-images.githubusercontent.com/447806/133938224-1bc1bfc5-3cd1-439e-a079-243d89931b48.png)](https://user-images.githubusercontent.com/447806/133938224-1bc1bfc5-3cd1-439e-a079-243d89931b48.png)
 
 [![image](
