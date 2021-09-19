@@ -12,17 +12,16 @@ Below is a screenshot of a scatter plot of the data for electrical usage for my 
 
 ## Questions & Tasks
 
-The following tasks and questions will drive the visualization and interaction decisions for this project:
+The visualization and interactions are intended to answer the following questions:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+ * How does electricity usage vary over seasons of a year?
+ * How does usage compare across two years for each month and season?
+ * How does usage compare across accounts by season?
+ * How has the cost of electricity change compared to usage (i.e. what effect has rate increases had)?
+ * What does net metered usage (solar generated power) compare to total usage by account and by season?
 
 ## Sketches
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
 
 ## Open Questions
 
