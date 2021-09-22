@@ -12,6 +12,10 @@ Below is a screenshot of a scatter plot of the data for electrical usage for my 
 
 https://vizhub.com/pcordone/88ab7f8fa4404167af3b1866e3fcd70f
 
+[![image](https://user-images.githubusercontent.com/447806/134263151-36ee947c-4a1e-408f-af61-f4272a535eb5.png)](https://user-images.githubusercontent.com/447806/134263151-36ee947c-4a1e-408f-af61-f4272a535eb5.png)
+
+https://vizhub.com/pcordone/7022e550fada4acaae8833f6150f2072?edit=files&file=index.html&mode=full
+
 ## Questions & Tasks
 
 The visualization and interactions are intended to answer the following questions:
