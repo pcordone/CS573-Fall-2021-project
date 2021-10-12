@@ -24,6 +24,7 @@ Here is a screen shot of the latest bar chart across years with the ability to c
 [![image](
 https://user-images.githubusercontent.com/447806/136951147-99747773-92ad-4fac-9385-8670a5154d0a.png)](
 https://user-images.githubusercontent.com/447806/136951147-99747773-92ad-4fac-9385-8670a5154d0a.png)
+https://vizhub.com/pcordone/93f904e779964c3fa8bfa169311ebf00?edit=files&file=barChart.js
 
 This is a screenshot of a radial stacked bar chart.
 
