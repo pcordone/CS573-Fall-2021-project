@@ -20,6 +20,11 @@ https://vizhub.com/pcordone/88ab7f8fa4404167af3b1866e3fcd70f
 
 https://vizhub.com/pcordone/7022e550fada4acaae8833f6150f2072?edit=files&file=index.html&mode=full
 
+Here is a screen shot of the latest bar chart across years with the ability to choose the account
+[![image](
+https://user-images.githubusercontent.com/447806/136951147-99747773-92ad-4fac-9385-8670a5154d0a.png)](
+https://user-images.githubusercontent.com/447806/136951147-99747773-92ad-4fac-9385-8670a5154d0a.png)
+
 This is a screenshot of a radial stacked bar chart.
 
 
@@ -45,8 +50,6 @@ By rendering the bars as rectangular instead of pie shaped, the issue of the are
 [![image](
 https://user-images.githubusercontent.com/447806/133938231-ae7a1b6b-bd14-46a2-b126-a578d11f0b41.png)](
 https://user-images.githubusercontent.com/447806/133938231-ae7a1b6b-bd14-46a2-b126-a578d11f0b41.png)
-
-I would also like to add interactivity where the user can select accounts to show, adjust the period the circumference covers, and select wheter to show net metering credits or not.
 
 ## Open Questions
 
