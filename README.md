@@ -24,18 +24,28 @@ The visualization and interactions are intended to answer the following question
 ## Schedule of Deliverables
 Week 7
 * First draft of porting stacked bar chart to radial bar chart.
-** Fix bugs with the yaxis radial labels not showing.
-** Fix the bug with the lines being overwritten by the pie wedges.
 Week 8
-* 
+* Fix issues with radial stacked bar chart
+  * Fix bugs with the yaxis radial labels not showing.
+  * Fix the bug with the lines being overwritten by the pie wedges.
+  * Get the y label text and title to showup.
 Week 9
+* Port the code to react.
+  * Complete learning what I need to in order to get the code to work in react.
 Week 10
+* Finish the port of the code to react and fix any bugs.
 Week 10
+* Add the additional menus for choosing the period and all accounts.
 Week 11
+* Add the choice of period cycle selection.
 Week 12
+* Host the visualization on github.
 Week 13
+* Tryout different animations to decide on which work best.
 Week 14
-
+* Test on different datasets and fix any bugs.
+Week 15
+* Buffer to all for project slipage or improve interactions.
 ## Prototypes
 
 Below is a screenshot of a scatter plot of the data for electrical usage for my personal accounts.  I live in an owner occupied 3 family and you can see the usage for two of the apartments that I occupy and the common meter which provides power for the rear and front LED lighting, basement outlets and outside outlets.  I have electric heat pumps that I use to cool in the summer and offset oil consumption in the winter.
