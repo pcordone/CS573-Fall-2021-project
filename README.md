@@ -25,6 +25,7 @@ The visualization and interactions are intended to answer the following question
 
 Below is a screenshot of a scatter plot of the data for electrical usage for my personal accounts.  I live in an owner occupied 3 family and you can see the usage for two of the apartments that I occupy and the common meter which provides power for the rear and front LED lighting, basement outlets and outside outlets.  I have electric heat pumps that I use to cool in the summer and offset oil consumption in the winter.
 
+->Scatterplot of electicity usage by account<-
 [![image](https://user-images.githubusercontent.com/447806/133937864-d8a5d491-8e60-4cfc-a4cc-e4a9f931c23c.png)](https://user-images.githubusercontent.com/447806/133937864-d8a5d491-8e60-4cfc-a4cc-e4a9f931c23c.png)
 
 https://vizhub.com/pcordone/88ab7f8fa4404167af3b1866e3fcd70f
@@ -33,13 +34,13 @@ https://vizhub.com/pcordone/88ab7f8fa4404167af3b1866e3fcd70f
 
 https://vizhub.com/pcordone/7022e550fada4acaae8833f6150f2072?edit=files&file=index.html&mode=full
 
-Here is a screen shot of the latest bar chart across years with the ability to choose the account
+->Stacked bar chart for a single account of usage data for two years<-
 [![image](
 https://user-images.githubusercontent.com/447806/136951147-99747773-92ad-4fac-9385-8670a5154d0a.png)](
 https://user-images.githubusercontent.com/447806/136951147-99747773-92ad-4fac-9385-8670a5154d0a.png)
 https://vizhub.com/pcordone/93f904e779964c3fa8bfa169311ebf00?edit=files&file=barChart.js
 
-This is a screenshot of a radial stacked bar chart.
+->Radial stacked bar chart prototype.<-
 [![image](
 https://user-images.githubusercontent.com/447806/137047437-fcdf74d5-ab3c-4c9d-80e2-86a9fb930eb7.png)](
 https://user-images.githubusercontent.com/447806/137047437-fcdf74d5-ab3c-4c9d-80e2-86a9fb930eb7.png)
@@ -52,7 +53,6 @@ This visualization sketch shows a stacked bar graph wrapped around a circle repr
 [![image](https://user-images.githubusercontent.com/447806/133938224-1bc1bfc5-3cd1-439e-a079-243d89931b48.png)](https://user-images.githubusercontent.com/447806/133938224-1bc1bfc5-3cd1-439e-a079-243d89931b48.png)
 
 By rendering the bars as rectangular instead of pie shaped, the issue of the area of the bars increasing as segments are further out is removed.
-
 [![image](
 https://user-images.githubusercontent.com/447806/133938231-ae7a1b6b-bd14-46a2-b126-a578d11f0b41.png)](
 https://user-images.githubusercontent.com/447806/133938231-ae7a1b6b-bd14-46a2-b126-a578d11f0b41.png)
