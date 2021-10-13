@@ -30,21 +30,17 @@ Scatterplot of electicity usage by account
 
 https://vizhub.com/pcordone/7022e550fada4acaae8833f6150f2072?mode=full
 
-[![image](https://user-images.githubusercontent.com/447806/134263151-36ee947c-4a1e-408f-af61-f4272a535eb5.png)](https://user-images.githubusercontent.com/447806/134263151-36ee947c-4a1e-408f-af61-f4272a535eb5.png)
-
-https://vizhub.com/pcordone/7022e550fada4acaae8833f6150f2072?edit=files&file=index.html&mode=full
-
 Stacked bar chart for a single account of usage data for two years
 [![image](
 https://user-images.githubusercontent.com/447806/136951147-99747773-92ad-4fac-9385-8670a5154d0a.png)](
 https://user-images.githubusercontent.com/447806/136951147-99747773-92ad-4fac-9385-8670a5154d0a.png)
-https://vizhub.com/pcordone/93f904e779964c3fa8bfa169311ebf00?edit=files&file=barChart.js
+https://vizhub.com/pcordone/93f904e779964c3fa8bfa169311ebf00?edit=files&file=barChart.js&mode=full
 
 Radial stacked bar chart prototype
 [![image](
 https://user-images.githubusercontent.com/447806/137047437-fcdf74d5-ab3c-4c9d-80e2-86a9fb930eb7.png)](
 https://user-images.githubusercontent.com/447806/137047437-fcdf74d5-ab3c-4c9d-80e2-86a9fb930eb7.png)
-https://vizhub.com/pcordone/0260321d75f045ed9e9c7bb382c32586?edit=files&file=barChart.js
+https://vizhub.com/pcordone/0260321d75f045ed9e9c7bb382c32586?edit=files&file=barChart.js&mode=full
 
 ## Sketches
 
