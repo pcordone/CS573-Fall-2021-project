@@ -22,15 +22,16 @@ The visualization and interactions are intended to answer the following question
  * What does net metered usage (solar generated power) compare to total usage by account and by season?
 
 ## Schedule of Deliverables
-Week 7<br>
+Week 7
 * First draft of porting stacked bar chart to radial bar chart.<br>
 
-Week 8<br>
+Week 8
 * Fix issues with radial stacked bar chart
   * Fix bugs with the yaxis radial labels not showing.
   * Fix the bug with the lines being overwritten by the pie wedges.
   * Get the y label text and title to showup.<br>
-Week 9<br>
+
+Week 9
 * Port the code to react.
   * Complete learning what I need to in order to get the code to work in react.<br>
 Week 10<br>
