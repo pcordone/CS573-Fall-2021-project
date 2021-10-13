@@ -22,29 +22,29 @@ The visualization and interactions are intended to answer the following question
  * What does net metered usage (solar generated power) compare to total usage by account and by season?
 
 ## Schedule of Deliverables
-Week 7
+Week 7  
 * First draft of porting stacked bar chart to radial bar chart.
-Week 8
+Week 8  
 * Fix issues with radial stacked bar chart
   * Fix bugs with the yaxis radial labels not showing.
   * Fix the bug with the lines being overwritten by the pie wedges.
   * Get the y label text and title to showup.
-Week 9
+Week 9  
 * Port the code to react.
   * Complete learning what I need to in order to get the code to work in react.
-Week 10
+Week 10  
 * Finish the port of the code to react and fix any bugs.
-Week 10
+Week 10  
 * Add the additional menus for choosing the period and all accounts.
-Week 11
+Week 11  
 * Add the choice of period cycle selection.
-Week 12
+Week 12  
 * Host the visualization on github.
-Week 13
+Week 13  
 * Tryout different animations to decide on which work best.
-Week 14
+Week 14  
 * Test on different datasets and fix any bugs.
-Week 15
+Week 15  
 * Buffer to all for project slipage or improve interactions.
 ## Prototypes
 
