@@ -15,10 +15,9 @@ I plan on supporting the following interractions:
 
 The visualization and interactions are intended to answer the following questions:
 
- * How does electricity usage vary over seasons of a year?
+ * How does electricity usage vary over the seasons of a year?
  * How does usage compare across two years for each month and season?
  * How does usage compare across accounts by season?
- * How has the cost of electricity change compared to usage (i.e. what effect has rate increases had)?
  * What does net metered usage (solar generated power) compare to total usage by account and by season?
 
 ## Prototypes
