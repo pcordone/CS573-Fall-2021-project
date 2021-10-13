@@ -24,6 +24,7 @@ The visualization and interactions are intended to answer the following question
 ## Schedule of Deliverables
 Week 7<br>
 * First draft of porting stacked bar chart to radial bar chart.<br>
+
 Week 8<br>
 * Fix issues with radial stacked bar chart
   * Fix bugs with the yaxis radial labels not showing.
