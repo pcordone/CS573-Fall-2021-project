@@ -28,7 +28,7 @@ https://vizhub.com/pcordone/93f904e779964c3fa8bfa169311ebf00?edit=files&file=bar
 
 This is a screenshot of a radial stacked bar chart.
 [![image](
-Bar chart radial)](
+https://user-images.githubusercontent.com/447806/137047437-fcdf74d5-ab3c-4c9d-80e2-86a9fb930eb7.png)](
 https://user-images.githubusercontent.com/447806/137047437-fcdf74d5-ab3c-4c9d-80e2-86a9fb930eb7.png)
 
 ## Questions & Tasks
