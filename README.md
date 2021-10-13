@@ -57,14 +57,6 @@ By rendering the bars as rectangular instead of pie shaped, the issue of the are
 https://user-images.githubusercontent.com/447806/133938231-ae7a1b6b-bd14-46a2-b126-a578d11f0b41.png)](
 https://user-images.githubusercontent.com/447806/133938231-ae7a1b6b-bd14-46a2-b126-a578d11f0b41.png)
 
-## Data
-
-The data I propose to visualize for my project is electrical usage data for multiple accounts for two years by month.  The dataset can be found here https://gist.github.com/pcordone/93039d5d909fbf42838c5167219d6ed4.  It contains usage data for three accounts including net metering credit data from a solar farm that I purchase electricity from.
-
-## Open Questions
-
-Once concern is I don't have a lot of data (twenty four points for each account).  I also don't have data for a wide variety of accounts publically availabe to render the visualization with.  I am working on getting a larger dataset from work that can be made publically available.  I could test it out on datasets at work and likely capture the rendering without concern of exposing information.
-
 ## Schedule of Deliverables
 Week 7
 * First draft of porting stacked bar chart to radial bar chart.<br>
