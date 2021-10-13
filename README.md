@@ -34,19 +34,26 @@ Week 8
 Week 9
 * Port the code to react.
   * Complete learning what I need to in order to get the code to work in react.<br>
-Week 10<br>
+
+Week 10
 * Finish the port of the code to react and fix any bugs.<br>
-Week 10<br>
+
+Week 10
 * Add the additional menus for choosing the period and all accounts.<br>
-Week 11<br>
+
+Week 11
 * Add the choice of period cycle selection.<br>
-Week 12<br>
+
+Week 12
 * Host the visualization on github.<br>
-Week 13<br>
+
+Week 13
 * Tryout different animations to decide on which work best.<br>
-Week 14<br>
+
+Week 14
 * Test on different datasets and fix any bugs.<br>
-Week 15<br>
+
+Week 15
 * Buffer to all for project slipage or improve interactions.
 ## Prototypes
 
