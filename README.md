@@ -21,40 +21,6 @@ The visualization and interactions are intended to answer the following question
  * How has the cost of electricity change compared to usage (i.e. what effect has rate increases had)?
  * What does net metered usage (solar generated power) compare to total usage by account and by season?
 
-## Schedule of Deliverables
-Week 7
-* First draft of porting stacked bar chart to radial bar chart.<br>
-
-Week 8
-* Fix issues with radial stacked bar chart
-  * Fix bugs with the yaxis radial labels not showing.
-  * Fix the bug with the lines being overwritten by the pie wedges.
-  * Get the y label text and title to showup.<br>
-
-Week 9
-* Port the code to react.
-  * Complete learning what I need to in order to get the code to work in react.<br>
-
-Week 10
-* Finish the port of the code to react and fix any bugs.<br>
-
-Week 10
-* Add the additional menus for choosing the period and all accounts.<br>
-
-Week 11
-* Add the choice of period cycle selection.<br>
-
-Week 12
-* Host the visualization on github.<br>
-
-Week 13
-* Tryout different animations to decide on which work best.<br>
-
-Week 14
-* Test on different datasets and fix any bugs.<br>
-
-Week 15
-* Buffer to all for project slipage or improve interactions.
 ## Prototypes
 
 Below is a screenshot of a scatter plot of the data for electrical usage for my personal accounts.  I live in an owner occupied 3 family and you can see the usage for two of the apartments that I occupy and the common meter which provides power for the rear and front LED lighting, basement outlets and outside outlets.  I have electric heat pumps that I use to cool in the summer and offset oil consumption in the winter.
@@ -98,3 +64,38 @@ The data I propose to visualize for my project is electrical usage data for mult
 ## Open Questions
 
 Once concern is I don't have a lot of data (twenty four points for each account).  I also don't have data for a wide variety of accounts publically availabe to render the visualization with.  I am working on getting a larger dataset from work that can be made publically available.  I could test it out on datasets at work and likely capture the rendering without concern of exposing information.
+
+## Schedule of Deliverables
+Week 7
+* First draft of porting stacked bar chart to radial bar chart.<br>
+
+Week 8
+* Fix issues with radial stacked bar chart
+  * Fix bugs with the yaxis radial labels not showing.
+  * Fix the bug with the lines being overwritten by the pie wedges.
+  * Get the y label text and title to showup.<br>
+
+Week 9
+* Port the code to react.
+  * Complete learning what I need to in order to get the code to work in react.<br>
+
+Week 10
+* Finish the port of the code to react and fix any bugs.<br>
+
+Week 10
+* Add the additional menus for choosing the period and all accounts.<br>
+
+Week 11
+* Add the choice of period cycle selection.<br>
+
+Week 12
+* Host the visualization on github.<br>
+
+Week 13
+* Tryout different animations to decide on which work best.<br>
+
+Week 14
+* Test on different datasets and fix any bugs.<br>
+
+Week 15
+* Buffer to all for project slipage or improve interactions.
