@@ -22,6 +22,10 @@ The visualization and interactions are intended to answer the following question
  * What does net metered usage (solar generated power) compare to total usage by account and by season?
 
 ## Schedule of Deliverables
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ## Prototypes
 
