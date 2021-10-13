@@ -22,10 +22,19 @@ The visualization and interactions are intended to answer the following question
  * What does net metered usage (solar generated power) compare to total usage by account and by season?
 
 ## Schedule of Deliverables
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+Week 7
+* First draft of porting stacked bar chart to radial bar chart.
+** Fix bugs with the yaxis radial labels not showing.
+** Fix the bug with the lines being overwritten by the pie wedges.
+Week 8
+* 
+Week 9
+Week 10
+Week 10
+Week 11
+Week 12
+Week 13
+Week 14
 
 ## Prototypes
 
