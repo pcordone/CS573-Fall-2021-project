@@ -22,29 +22,29 @@ The visualization and interactions are intended to answer the following question
  * What does net metered usage (solar generated power) compare to total usage by account and by season?
 
 ## Schedule of Deliverables
-Week 7  
-* First draft of porting stacked bar chart to radial bar chart.
-Week 8  
+Week 7<br>
+* First draft of porting stacked bar chart to radial bar chart.<br>
+Week 8<br>
 * Fix issues with radial stacked bar chart
   * Fix bugs with the yaxis radial labels not showing.
   * Fix the bug with the lines being overwritten by the pie wedges.
-  * Get the y label text and title to showup.
-<br>Week 9<br>
+  * Get the y label text and title to showup.<br>
+Week 9<br>
 * Port the code to react.
-  * Complete learning what I need to in order to get the code to work in react.
-<br>Week 10<br>
-* Finish the port of the code to react and fix any bugs.
-<br>Week 10<br>
-* Add the additional menus for choosing the period and all accounts.
-<br>Week 11<br>
-* Add the choice of period cycle selection.
-<br>Week 12<br>
-* Host the visualization on github.
-<br>Week 13<br>
-* Tryout different animations to decide on which work best.
-<br>Week 14<br>
-* Test on different datasets and fix any bugs.
-<br>Week 15<br>
+  * Complete learning what I need to in order to get the code to work in react.<br>
+Week 10<br>
+* Finish the port of the code to react and fix any bugs.<br>
+Week 10<br>
+* Add the additional menus for choosing the period and all accounts.<br>
+Week 11<br>
+* Add the choice of period cycle selection.<br>
+Week 12<br>
+* Host the visualization on github.<br>
+Week 13<br>
+* Tryout different animations to decide on which work best.<br>
+Week 14<br>
+* Test on different datasets and fix any bugs.<br>
+Week 15<br>
 * Buffer to all for project slipage or improve interactions.
 ## Prototypes
 
