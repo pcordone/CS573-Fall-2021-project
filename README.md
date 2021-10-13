@@ -29,22 +29,22 @@ Week 8
   * Fix bugs with the yaxis radial labels not showing.
   * Fix the bug with the lines being overwritten by the pie wedges.
   * Get the y label text and title to showup.
-Week 9  
+Week 9<br>
 * Port the code to react.
   * Complete learning what I need to in order to get the code to work in react.
-Week 10  
+Week 10<br>
 * Finish the port of the code to react and fix any bugs.
-Week 10  
+Week 10<br>
 * Add the additional menus for choosing the period and all accounts.
-Week 11  
+Week 11<br>
 * Add the choice of period cycle selection.
-Week 12  
+Week 12<br>
 * Host the visualization on github.
-Week 13  
+Week 13<br>
 * Tryout different animations to decide on which work best.
-Week 14  
+Week 14<br>
 * Test on different datasets and fix any bugs.
-Week 15  
+Week 15<br>
 * Buffer to all for project slipage or improve interactions.
 ## Prototypes
 
