@@ -19,7 +19,9 @@ I plan on supporting the following interractions to answer the following questio
 Below is a screenshot of a scatter plot of the data for electrical usage for my personal accounts.  I live in an owner occupied 3 family and you can see the usage for two of the apartments that I occupy and the common meter which provides power for the rear and front LED lighting, basement outlets and outside outlets.  I have electric heat pumps that I use to cool in the summer and offset oil consumption in the winter.
 
 Scatterplot of electicity usage by account
-[![image](https://user-images.githubusercontent.com/447806/137117330-d6a54938-2a87-46b4-ae3c-8dc0dadc79a4.png)](https://user-images.githubusercontent.com/447806/137117330-d6a54938-2a87-46b4-ae3c-8dc0dadc79a4.png)
+[![image](
+https://user-images.githubusercontent.com/447806/137117330-d6a54938-2a87-46b4-ae3c-8dc0dadc79a4.png)](
+https://user-images.githubusercontent.com/447806/137117330-d6a54938-2a87-46b4-ae3c-8dc0dadc79a4.png)
 
 https://vizhub.com/pcordone/7022e550fada4acaae8833f6150f2072?mode=full
 
