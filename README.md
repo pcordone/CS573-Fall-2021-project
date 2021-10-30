@@ -46,9 +46,6 @@ https://user-images.githubusercontent.com/447806/138621014-8f3e3043-b0a7-40d1-81
 
 [Radial Stacked Bar Chart With Brushing of Personal Electric Usage Data By Year for Account](https://vizhub.com/pcordone/28aa056b1c374fb5aeb1e281a802a8bf?mode=full)
 [![image](
-https://user-images.githubusercontent.com/447806/138621014-8f3e3043-b0a7-40d1-815a-91cd3c029a21.png)](
-https://user-images.githubusercontent.com/447806/138621014-8f3e3043-b0a7-40d1-815a-91cd3c029a21.png)
-
 https://user-images.githubusercontent.com/447806/139498642-09499915-6d4e-49e1-8525-d25d9cf3794c.png)](
 https://user-images.githubusercontent.com/447806/139498642-09499915-6d4e-49e1-8525-d25d9cf3794c.png)
 
@@ -63,12 +60,6 @@ Scatter plot of
 [![image](
 https://user-images.githubusercontent.com/447806/137047437-fcdf74d5-ab3c-4c9d-80e2-86a9fb930eb7.png)](
 https://user-images.githubusercontent.com/447806/137047437-fcdf74d5-ab3c-4c9d-80e2-86a9fb930eb7.png)
-
-![Visualication using brushing of year 2019](https://user-images.githubusercontent.com/447806/139498642-09499915-6d4e-49e1-8525-d25d9cf3794c.png)
-
-![Visualization of using brushing pf year 2020-2021](https://user-images.githubusercontent.com/447806/139498649-1537bfb0-0557-4f05-bc27-06ad39c02116.png)
-
-![Visualization of using brushing fpr year 2021](https://user-images.githubusercontent.com/447806/139498663-d519bf4c-0e98-4e00-a3f3-40af3e5503f9.png)
 
 ## Sketches
 
