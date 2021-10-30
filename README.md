@@ -20,8 +20,8 @@ Below is a screenshot of a scatter plot of the data for electrical usage for my 
 
 Scatterplot of electicity usage by account
 [![image](
-https://user-images.githubusercontent.com/447806/137117330-d6a54938-2a87-46b4-ae3c-8dc0dadc79a4.png)](
-https://user-images.githubusercontent.com/447806/137117330-d6a54938-2a87-46b4-ae3c-8dc0dadc79a4.png)
+https://user-images.githubusercontent.com/447806/133937864-d8a5d491-8e60-4cfc-a4cc-e4a9f931c23c.png)](
+https://user-images.githubusercontent.com/447806/133937864-d8a5d491-8e60-4cfc-a4cc-e4a9f931c23c.png)
 
 https://vizhub.com/pcordone/7022e550fada4acaae8833f6150f2072?mode=full
 
