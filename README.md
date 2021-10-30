@@ -68,16 +68,16 @@ Week 7
 
 Week 8
 * Fix issues with radial stacked bar chart
-  * Fix bugs with the yaxis radial labels not showing.
-  * Fix the bug with the lines being overwritten by the pie wedges.
-  * Get the y label text and title to showup.<br>
+  * <strike>Fix bugs with the yaxis radial labels not showing.</strike>
+  * <strike>Fix the bug with the lines being overwritten by the pie wedges.</strike>
+  * <strike>Get the y label text and title to showup.</strike><br>
 
 Week 9
-* Port the code to react.
-  * Complete learning what I need to in order to get the code to work in react.<br>
+* <strike>Identify a richer dataset of electrical usage data and expore the data via vega lite API.</strike>
+* Change the visualization from a radial stacked bar chart to a radial line chart for the new dataset.
 
 Week 10
-* Finish the port of the code to react and fix any bugs.<br>
+* 
 
 Week 10
 * Add the additional menus for choosing the period and all accounts.<br>
