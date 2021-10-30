@@ -34,11 +34,29 @@ https://user-images.githubusercontent.com/447806/137047437-fcdf74d5-ab3c-4c9d-80
 https://user-images.githubusercontent.com/447806/137047437-fcdf74d5-ab3c-4c9d-80e2-86a9fb930eb7.png)
 https://vizhub.com/pcordone/0260321d75f045ed9e9c7bb382c32586?edit=files&file=barChart.js&mode=full
 
-Radial stacked bar chart with brushing that allows the user to select the year range
+[Radial Stacked Bar Chart of Personal Electric Usage Data By Year for Account](https://vizhub.com/pcordone/28aa056b1c374fb5aeb1e281a802a8bf?edit=files&file=index.js&mode=full)
 [![image](
 https://user-images.githubusercontent.com/447806/138621014-8f3e3043-b0a7-40d1-815a-91cd3c029a21.png)](
 https://user-images.githubusercontent.com/447806/138621014-8f3e3043-b0a7-40d1-815a-91cd3c029a21.png)
-https://vizhub.com/pcordone/28aa056b1c374fb5aeb1e281a802a8bf?edit=files&file=index.js&mode=full
+
+[Radial Stacked Bar Chart of Personal Electric Usage Data By Year for Account](https://vizhub.com/pcordone/28aa056b1c374fb5aeb1e281a802a8bf?edit=files&file=index.js&mode=full)
+[![image](
+https://user-images.githubusercontent.com/447806/138621014-8f3e3043-b0a7-40d1-815a-91cd3c029a21.png)](
+https://user-images.githubusercontent.com/447806/138621014-8f3e3043-b0a7-40d1-815a-91cd3c029a21.png)
+
+[Radial Stacked Bar Chart With Brushing of Personal Electric Usage Data By Year for Account](https://vizhub.com/pcordone/28aa056b1c374fb5aeb1e281a802a8bf?mode=full)
+[![image](
+https://user-images.githubusercontent.com/447806/138621014-8f3e3043-b0a7-40d1-815a-91cd3c029a21.png)](
+https://user-images.githubusercontent.com/447806/138621014-8f3e3043-b0a7-40d1-815a-91cd3c029a21.png)
+
+https://user-images.githubusercontent.com/447806/139498642-09499915-6d4e-49e1-8525-d25d9cf3794c.png)](
+https://user-images.githubusercontent.com/447806/139498642-09499915-6d4e-49e1-8525-d25d9cf3794c.png)
+
+https://user-images.githubusercontent.com/447806/139498649-1537bfb0-0557-4f05-bc27-06ad39c02116.png)](
+https://user-images.githubusercontent.com/447806/139498649-1537bfb0-0557-4f05-bc27-06ad39c02116.png)
+
+https://user-images.githubusercontent.com/447806/139498663-d519bf4c-0e98-4e00-a3f3-40af3e5503f9.png)](
+https://user-images.githubusercontent.com/447806/139498663-d519bf4c-0e98-4e00-a3f3-40af3e5503f9.png)
 
 In these plots I pivoted to the new MFRED dataset.
 Scatter plot of 
