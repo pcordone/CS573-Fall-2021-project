@@ -33,7 +33,7 @@ https://user-images.githubusercontent.com/447806/136951147-99747773-92ad-4fac-93
 https://user-images.githubusercontent.com/447806/139539378-2531a838-55c6-429d-a8e6-0d595677140c.png)](
 https://user-images.githubusercontent.com/447806/139539378-2531a838-55c6-429d-a8e6-0d595677140c.png)
 
-[Radial Stacked Bar Chart of Personal Electric Usage Data By Year for Account](https://vizhub.com/pcordone/28aa056b1c374fb5aeb1e281a802a8bf?edit=files&file=index.js&mode=full)
+[Radial Stacked Bar Chart of Personal Electric Usage Data By Year for Account](https://vizhub.com/pcordone/3974ffab05d94bbdb2c24a188b87eb66?mode=full)
 [![image](
 https://user-images.githubusercontent.com/447806/138621014-8f3e3043-b0a7-40d1-815a-91cd3c029a21.png)](
 https://user-images.githubusercontent.com/447806/138621014-8f3e3043-b0a7-40d1-815a-91cd3c029a21.png)
