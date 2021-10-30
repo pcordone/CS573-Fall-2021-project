@@ -18,12 +18,12 @@ I plan on supporting the following interractions to answer the following questio
 
 Below is a screenshot of a scatter plot of the data for electrical usage for my personal accounts.  I live in an owner occupied 3 family and you can see the usage for two of the apartments that I occupy and the common meter which provides power for the rear and front LED lighting, basement outlets and outside outlets.  I have electric heat pumps that I use to cool in the summer and offset oil consumption in the winter.
 
-Scatterplot of electicity usage by account
+[Scatterplot of Personal Electric Consumption by Account](https://vizhub.com/pcordone/88ab7f8fa4404167af3b1866e3fcd70f?mode=full)
 [![image](
 https://user-images.githubusercontent.com/447806/133937864-d8a5d491-8e60-4cfc-a4cc-e4a9f931c23c.png)](
 https://user-images.githubusercontent.com/447806/133937864-d8a5d491-8e60-4cfc-a4cc-e4a9f931c23c.png)
 
-[Scatterplot of Personal Electric Consumption](https://vizhub.com/pcordone/88ab7f8fa4404167af3b1866e3fcd70f?mode=full)
+
 
 Stacked bar chart for a single account of usage data for two years
 [![image](
