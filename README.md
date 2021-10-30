@@ -23,7 +23,7 @@ Scatterplot of electicity usage by account
 https://user-images.githubusercontent.com/447806/133937864-d8a5d491-8e60-4cfc-a4cc-e4a9f931c23c.png)](
 https://user-images.githubusercontent.com/447806/133937864-d8a5d491-8e60-4cfc-a4cc-e4a9f931c23c.png)
 
-https://vizhub.com/pcordone/7022e550fada4acaae8833f6150f2072?mode=full
+[Scatterplot of Personal Electric Consumption](https://vizhub.com/pcordone/88ab7f8fa4404167af3b1866e3fcd70f?mode=full)
 
 Stacked bar chart for a single account of usage data for two years
 [![image](
