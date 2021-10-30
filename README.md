@@ -16,6 +16,8 @@ I plan on supporting the following interractions to answer the following questio
 
 ## Prototypes
 
+### Personal Electric Account
+
 Below is a screenshot of a scatter plot of the data for electrical usage for my personal accounts.  I live in an owner occupied 3 family and you can see the usage for two of the apartments that I occupy and the common meter which provides power for the rear and front LED lighting, basement outlets and outside outlets.  I have electric heat pumps that I use to cool in the summer and offset oil consumption in the winter.
 
 [Scatterplot of Personal Electric Consumption by Account](https://vizhub.com/pcordone/88ab7f8fa4404167af3b1866e3fcd70f?mode=full)
@@ -43,6 +45,9 @@ https://user-images.githubusercontent.com/447806/139498649-1537bfb0-0557-4f05-bc
 [![image](
 https://user-images.githubusercontent.com/447806/139498663-d519bf4c-0e98-4e00-a3f3-40af3e5503f9.png)](
 https://user-images.githubusercontent.com/447806/139498663-d519bf4c-0e98-4e00-a3f3-40af3e5503f9.png)
+
+
+### MFRED Dataset
 
 In these plots I pivoted to the new MFRED dataset.
 
