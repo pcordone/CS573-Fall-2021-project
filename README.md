@@ -23,13 +23,10 @@ Below is a screenshot of a scatter plot of the data for electrical usage for my 
 https://user-images.githubusercontent.com/447806/133937864-d8a5d491-8e60-4cfc-a4cc-e4a9f931c23c.png)](
 https://user-images.githubusercontent.com/447806/133937864-d8a5d491-8e60-4cfc-a4cc-e4a9f931c23c.png)
 
-
-
-Stacked bar chart for a single account of usage data for two years
+[Stacked Bar Chart of Personal Electric Usage Data By Year for Account](https://vizhub.com/pcordone/93f904e779964c3fa8bfa169311ebf00?edit=files&file=barChart.js&mode=full)
 [![image](
 https://user-images.githubusercontent.com/447806/136951147-99747773-92ad-4fac-9385-8670a5154d0a.png)](
 https://user-images.githubusercontent.com/447806/136951147-99747773-92ad-4fac-9385-8670a5154d0a.png)
-https://vizhub.com/pcordone/93f904e779964c3fa8bfa169311ebf00?edit=files&file=barChart.js&mode=full
 
 Radial stacked bar chart prototype
 [![image](
