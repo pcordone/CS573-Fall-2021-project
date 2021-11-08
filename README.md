@@ -77,25 +77,22 @@ Week 9
 * Change the visualization from a radial stacked bar chart to a radial line chart for the new dataset.
 
 Week 10
-* 
-
-Week 10
-* Add the additional menus for choosing the period and all accounts.<br>
+* Discuss in 1 on 1 with Prof. Curran ideas for how to visualize the new dataset.  Decided on binning the data to reduce the amount of data that is being visualized.  the line chart showed too much to be meaningful.
 
 Week 11
-* Add the choice of period cycle selection.<br>
+* Add the additional menus for choosing the period and all accounts.<br>
 
 Week 12
-* Host the visualization on github.<br>
+* Add the choice of period cycle selection.<br>
 
 Week 13
-* Tryout different animations to decide on which work best.<br>
+* Host the visualization on github.<br>
 
 Week 14
-* Test on different datasets and fix any bugs.<br>
+* Tryout different animations to decide on which work best.<br>
 
 Week 15
-* Buffer to all for project slipage or improve interactions.
+* Test on different datasets and fix any bugs.<br>
 
 ## Citations
 [1]C. J. Meinrenken et al., “MFRED, 10 second interval real and reactive power for groups of 390 US apartments of varying size and vintage,” Sci Data, vol. 7, no. 1, p. 375, Nov. 2020, doi: 10.1038/s41597-020-00721-w.
