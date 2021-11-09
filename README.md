@@ -50,6 +50,10 @@ https://user-images.githubusercontent.com/447806/139498663-d519bf4c-0e98-4e00-a3
 ### MFRED Dataset
 
 In these plots I pivoted to the new MFRED dataset.
+Below is a radial line chart of the MFRED 1 hour aggregation of the data.  I aggregated the 15 minute aggregate to an hour to make it more manageable.  The 15 min aggregation was too large to be imported into vizhub or gist.
+[![image](
+https://user-images.githubusercontent.com/447806/140840065-1eaf3cca-f6f1-46bd-ada9-32c2a4f4a940.png)](
+https://user-images.githubusercontent.com/447806/140840065-1eaf3cca-f6f1-46bd-ada9-32c2a4f4a940.png)
 
 ## Sketches
 
