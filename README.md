@@ -81,10 +81,10 @@ Week 9
 * Change the visualization from a radial stacked bar chart to a radial line chart for the new dataset.
 
 Week 10
-* Discuss in 1 on 1 with Prof. Curran ideas for how to visualize the new dataset.  Decided on binning the data to reduce the amount of data that is being visualized.  the line chart showed too much to be meaningful.
+* Discuss in 1 on 1 with Prof. Curran ideas for how to visualize the new dataset.  Decided on binning the data to reduce the amount of data that is being visualized.  the line chart had too many overlapping lines to be meaning.  Preprocessing the data without loosing the essential features will reduce the data to a more manageable size.
 
 Week 11
-* Add the additional menus for choosing the period and all accounts.<br>
+* Code bining of data by different criteria and try out visualizations.
 
 Week 12
 * Add the choice of period cycle selection.<br>
