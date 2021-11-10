@@ -84,19 +84,21 @@ Week 10
 * Discuss in 1 on 1 with Prof. Curran ideas for how to visualize the new dataset.  Decided on binning the data to reduce the amount of data that is being visualized.  the line chart had too many overlapping lines to be meaning.  Preprocessing the data without loosing the essential features will reduce the data to a more manageable size.
 
 Week 11
-* Code bining of data by different criteria and try out visualizations.
+* Coded grouping data by AG and binning data by time of day.
 
 Week 12
-* Add the choice of period cycle selection.<br>
+* Code a heatmap of the binned data above.  Add a drop down selection for choosing kVAR and kW.
+* Try facet visualization of above by AG or I may try concentric heatmaps of above by AG.
+* I will attempt using the javascript template for preprocessing the data that Prof. Kelleher sent me to create a grouping/binning preprocessor of the full 1 second dataset.
 
 Week 13
-* Host the visualization on github.<br>
+* Export visualization and attempt to host it on gtihub.  If I run into too many technical problems I may abandond this effort.
 
 Week 14
-* Tryout different animations to decide on which work best.<br>
+* Experiment with animations and add hover over text.
 
-Week 15
-* Test on different datasets and fix any bugs.<br>
+Week 15 
+* Polishing touches.
 
 ## Citations
 [1]C. J. Meinrenken et al., “MFRED, 10 second interval real and reactive power for groups of 390 US apartments of varying size and vintage,” Sci Data, vol. 7, no. 1, p. 375, Nov. 2020, doi: 10.1038/s41597-020-00721-w.
