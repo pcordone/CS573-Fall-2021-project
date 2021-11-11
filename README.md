@@ -1,62 +1,59 @@
 # Data Visualization Project CS573 Fall 2021 Peter Cordone
 
-## Visualization Description and Goals
+## Visualization Description, Background Information and Goals
 
-The goal of creating this visualization is to provide an interactive tool that will allow a user to explore their electrical usage data and look for cyclical patterns of usage within a particular account and across accounts.  Electrical usage to a home or business is measured by a meter.  Each meter is assocciated with an account to track usage and bill customers.  Energy consumption is measured in kilo watts or thousands of watts (abreviated kW) and power consumption or energy consumed over time is measured in kilo watt hours (abbreviated kWH). 
+The goal of creating this visualization is to provide an interactive tool that will allow a user to explore electrical usage data and look for cyclical patterns of usage.  Electrical usage to a home or business is measured by a meter and understanding usage patterns is critical to energy conservation, integrating renewables and non fossile fuel heating[1].  Each meter is assocciated with an account to track usage and bill customers.  Energy consumption is measured in kilo watts or thousands of watts (abreviated kW) and power consumption or energy consumed over time is measured in kilo watt hours (abbreviated kWH).  A load is defined as an electrical device that draws power from the electrical system.  Electrical energy consist of voltage, or electromotive force, that causes current which is the movement of electrons.  Power is transferred from the electrical grid to the device through teh flow of these electrons.  If the voltage and current are in phase, then the load is purely resistive.  It is possible for voltage and current to be out of phase, meaning that energy is flowing from the grid into the load but then back out from the load and into the grid.  While the load has not consumed the energy, the movement of electrons in the electrical system does consume energy so it is important to also measure electrical power that is out of phase.  This measurement is knows as reactive power and indicated by kilo volt amps reactiave or kVAR.  Air conditioning equipment in particular provides reactive load challenges for the electrical system.
 
-I started with my personal electrical consumption across three accounts that belong to me (I live on two floors of a three family and the third account is for the common circuit providing power for outdoor outlets, the basement workshop and common hallway lighting).  Since my personal dataset was limited to 24 months and only montly data, I pivoted to a dataset that was published as a part of the paper [C. J. Meinrenken et al., “MFRED, 10 second interval real and reactive power for groups of 390 US apartments of varying size and vintage,” Sci Data, vol. 7, no. 1, p. 375, Nov. 2020, doi: 10.1038/s41597-020-00721-w](https://www.nature.com/articles/s41597-020-00721-w).  The full dataset is sampled from over 300 homes of 26 different housing types every 10 seconds for a full year.  The fifteen minute aggregation is at [MFRED (public file, 15/15 aggregate version): 10 second interval real and reactive power in 390 US apartments of varying size and vintage](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/X9MIDJ).
-
-I plan on supporting the following interractions:
-* Focus + Context - Show a timeline of total KW energy consumption for the year with a radial line chart of energy consumption for the zoomed in time period
-* Allow selection of the different residential unit types to graph in the radial line chart
-* Hover over will show the KW consumption.
+I started with my personal electrical consumption across three accounts that belong to me (I live on two floors of a three family and the third account is for the common circuit providing power for outdoor outlets, the basement workshop and common hallway lighting).  Since my personal dataset was limited to 24 months and only montly data, I pivoted to a dataset that was published as a part of the paper [C. J. Meinrenken et al., “MFRED, 10 second interval real and reactive power for groups of 390 US apartments of varying size and vintage,” Sci Data, vol. 7, no. 1, p. 375, Nov. 2020, doi: 10.1038/s41597-020-00721-w](https://www.nature.com/articles/s41597-020-00721-w).  The full dataset is sampled from over 300 homes of 26 different multifamily housing types every 10 seconds for a full year.  A fifteen minute aggregation of the data is at [MFRED (public file, 15/15 aggregate version): 10 second interval real and reactive power in 390 US apartments of varying size and vintage](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/X9MIDJ) and I chose to use that dataset since it is more manageable.
 
 ## Questions & Tasks
 
-The visualization and interactions are intended to answer the following questions:
-
- * How does electricity usage vary over the seasons of a year?
- * How does electricity usage vary over the time of day?
- * What is the relationship between KW and kVAR and why?
+I plan on supporting the following interractions to answer the following questions:
+* Focus + Context - Show a timeline of total energy consumption (kW and kVAR)for the year with a radial line chart of energy consumption for the zoomed in time period to look for yearly and hourly patterns in consumption.
+* Allow selection of the different residential unit types to graph in the radial line chart to explore consumption patterns by unit type.
+* Hover over will show the kW and kVAR consumption.
+* Explore the relationship between kW and kVAR cyclical patterns and different unit types.
 
 ## Prototypes
 
+### Personal Electric Account
+
 Below is a screenshot of a scatter plot of the data for electrical usage for my personal accounts.  I live in an owner occupied 3 family and you can see the usage for two of the apartments that I occupy and the common meter which provides power for the rear and front LED lighting, basement outlets and outside outlets.  I have electric heat pumps that I use to cool in the summer and offset oil consumption in the winter.
 
-Scatterplot of electicity usage by account
-[![image](https://user-images.githubusercontent.com/447806/137117330-d6a54938-2a87-46b4-ae3c-8dc0dadc79a4.png)](https://user-images.githubusercontent.com/447806/137117330-d6a54938-2a87-46b4-ae3c-8dc0dadc79a4.png)
+[Scatterplot of Personal Electric Consumption by Account](https://vizhub.com/pcordone/88ab7f8fa4404167af3b1866e3fcd70f?mode=full)
+[![image](
+https://user-images.githubusercontent.com/447806/133937864-d8a5d491-8e60-4cfc-a4cc-e4a9f931c23c.png)](
+https://user-images.githubusercontent.com/447806/133937864-d8a5d491-8e60-4cfc-a4cc-e4a9f931c23c.png)
 
-https://vizhub.com/pcordone/7022e550fada4acaae8833f6150f2072?mode=full
-
-Stacked bar chart for a single account of usage data for two years
+[Stacked Bar Chart of Personal Electric Usage Data By Year for Account](https://vizhub.com/pcordone/93f904e779964c3fa8bfa169311ebf00?edit=files&file=barChart.js&mode=full)
 [![image](
 https://user-images.githubusercontent.com/447806/136951147-99747773-92ad-4fac-9385-8670a5154d0a.png)](
 https://user-images.githubusercontent.com/447806/136951147-99747773-92ad-4fac-9385-8670a5154d0a.png)
-https://vizhub.com/pcordone/93f904e779964c3fa8bfa169311ebf00?edit=files&file=barChart.js&mode=full
 
-Radial stacked bar chart prototype
-[![image](
-https://user-images.githubusercontent.com/447806/137047437-fcdf74d5-ab3c-4c9d-80e2-86a9fb930eb7.png)](
-https://user-images.githubusercontent.com/447806/137047437-fcdf74d5-ab3c-4c9d-80e2-86a9fb930eb7.png)
-https://vizhub.com/pcordone/0260321d75f045ed9e9c7bb382c32586?edit=files&file=barChart.js&mode=full
-
-Radial stacked bar chart with brushing that allows the user to select the year range
+[Radial Stacked Bar Chart of Personal Electric Usage Data By Year for Account](https://vizhub.com/pcordone/3974ffab05d94bbdb2c24a188b87eb66?mode=full)
 [![image](
 https://user-images.githubusercontent.com/447806/138621014-8f3e3043-b0a7-40d1-815a-91cd3c029a21.png)](
 https://user-images.githubusercontent.com/447806/138621014-8f3e3043-b0a7-40d1-815a-91cd3c029a21.png)
-https://vizhub.com/pcordone/28aa056b1c374fb5aeb1e281a802a8bf?edit=files&file=index.js&mode=full
+
+[Radial Stacked Bar Chart With Brushing of Personal Electric Usage Data By Year for Account](https://vizhub.com/pcordone/28aa056b1c374fb5aeb1e281a802a8bf?mode=full)
+[![image](
+https://user-images.githubusercontent.com/447806/139498642-09499915-6d4e-49e1-8525-d25d9cf3794c.png)](
+https://user-images.githubusercontent.com/447806/139498642-09499915-6d4e-49e1-8525-d25d9cf3794c.png)
+[![image](
+https://user-images.githubusercontent.com/447806/139498649-1537bfb0-0557-4f05-bc27-06ad39c02116.png)](
+https://user-images.githubusercontent.com/447806/139498649-1537bfb0-0557-4f05-bc27-06ad39c02116.png)
+[![image](
+https://user-images.githubusercontent.com/447806/139498663-d519bf4c-0e98-4e00-a3f3-40af3e5503f9.png)](
+https://user-images.githubusercontent.com/447806/139498663-d519bf4c-0e98-4e00-a3f3-40af3e5503f9.png)
+
+
+### MFRED Dataset
 
 In these plots I pivoted to the new MFRED dataset.
-Scatter plot of 
+Below is a radial line chart of the MFRED 1 hour aggregation of the data.  I aggregated the 15 minute aggregate to an hour to make it more manageable.  The 15 min aggregation was too large to be imported into vizhub or gist.
 [![image](
-https://user-images.githubusercontent.com/447806/137047437-fcdf74d5-ab3c-4c9d-80e2-86a9fb930eb7.png)](
-https://user-images.githubusercontent.com/447806/137047437-fcdf74d5-ab3c-4c9d-80e2-86a9fb930eb7.png)
-
-![Visualication using brushing of year 2019](https://user-images.githubusercontent.com/447806/139498642-09499915-6d4e-49e1-8525-d25d9cf3794c.png)
-
-![Visualization of using brushing pf year 2020-2021](https://user-images.githubusercontent.com/447806/139498649-1537bfb0-0557-4f05-bc27-06ad39c02116.png)
-
-![Visualization of using brushing fpr year 2021](https://user-images.githubusercontent.com/447806/139498663-d519bf4c-0e98-4e00-a3f3-40af3e5503f9.png)
+https://user-images.githubusercontent.com/447806/140840065-1eaf3cca-f6f1-46bd-ada9-32c2a4f4a940.png)](
+https://user-images.githubusercontent.com/447806/140840065-1eaf3cca-f6f1-46bd-ada9-32c2a4f4a940.png)
 
 ## Sketches
 
@@ -75,32 +72,34 @@ Week 7
 
 Week 8
 * Fix issues with radial stacked bar chart
-  * Fix bugs with the yaxis radial labels not showing.
-  * Fix the bug with the lines being overwritten by the pie wedges.
-  * Get the y label text and title to showup.<br>
+  * <strike>Fix bugs with the yaxis radial labels not showing.</strike>
+  * <strike>Fix the bug with the lines being overwritten by the pie wedges.</strike>
+  * <strike>Get the y label text and title to showup.</strike><br>
 
 Week 9
-* Port the code to react.
-  * Complete learning what I need to in order to get the code to work in react.<br>
+* <strike>Identify a richer dataset of electrical usage data and expore the data via vega lite API.</strike>
+* Change the visualization from a radial stacked bar chart to a radial line chart for the new dataset.
 
 Week 10
-* Finish the port of the code to react and fix any bugs.<br>
-
-Week 10
-* Add the additional menus for choosing the period and all accounts.<br>
+* Discuss in 1 on 1 with Prof. Curran ideas for how to visualize the new dataset.  Decided on binning the data to reduce the amount of data that is being visualized.  the line chart had too many overlapping lines to be meaning.  Preprocessing the data without loosing the essential features will reduce the data to a more manageable size.
 
 Week 11
-* Add the choice of period cycle selection.<br>
+* Coded grouping data by AG and binning data by time of day.
 
 Week 12
-* Host the visualization on github.<br>
+* Code a heatmap of the binned data above.  Add a drop down selection for choosing kVAR and kW.
+* Try facet visualization of above by AG or I may try concentric heatmaps of above by AG.
+* I will attempt using the javascript template for preprocessing the data that Prof. Kelleher sent me to create a grouping/binning preprocessor of the full 1 second dataset.
 
 Week 13
-* Tryout different animations to decide on which work best.<br>
+* Export visualization and attempt to host it on gtihub.  If I run into too many technical problems I may abandond this effort.
 
 Week 14
-* Test on different datasets and fix any bugs.<br>
+* Experiment with animations and add hover over text.
 
-Week 15
-* Buffer to all for project slipage or improve interactions.
+Week 15 
+* Polishing touches.
+
+## Citations
+[1]C. J. Meinrenken et al., “MFRED, 10 second interval real and reactive power for groups of 390 US apartments of varying size and vintage,” Sci Data, vol. 7, no. 1, p. 375, Nov. 2020, doi: 10.1038/s41597-020-00721-w.
 
