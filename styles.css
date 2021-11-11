@@ -1,0 +1,49 @@
+text {
+  font-size: 1em;
+  font-family: Arial, Helvitica, ans-serif;
+}
+
+.flex {
+  display: flex; /* or inline-flex */
+}
+
+.title {
+  font-size: 1.2em;
+  text-decoration: underline;
+  fill: darkblue;
+}
+
+.x-axis {
+}
+
+.y-axis {
+}
+
+.x-label {
+  fill: darkblue;
+}
+
+.y-label  {
+  fill: darkblue;
+}
+
+.legend-title {
+  font-size: 1.2em;
+  text-decoration: underline;
+  fill: darkblue;
+}
+
+.legend-labels {
+}
+
+.stack-outer {
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: left; 
+}
