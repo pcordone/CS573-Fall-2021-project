@@ -9,14 +9,13 @@ I started with my personal electrical consumption across three accounts that bel
 ## Questions & Tasks
 
 I plan on supporting the following interractions to answer the following questions:
-* Focus + Context - Show a timeline of total energy consumption (kW and kVAR)for the year with a radial line chart of energy consumption for the zoomed in time period to look for yearly and hourly patterns in consumption.
-* Allow selection of the different residential unit types to graph in the radial line chart to explore consumption patterns by unit type.
+* Focus + Context - Show a timeline of total energy consumption (kW and kVAR) for the year with a radial heat map of kW energy consumption in concentric rings by apartment group for the zoomed in time window of year to look for hourly patterns of consumption.
 * Hover over will show the kW and kVAR consumption.
-* Explore the relationship between kW and kVAR cyclical patterns and different unit types.
+* Explore the relationship between kW and kVAR cyclical patterns and different period types (i.e. the circle being day of week, month or year).
 
 ## Prototypes
 
-### Personal Electric Account
+### Dataset 1: Personal Electric Account
 
 Below is a screenshot of a scatter plot of the data for electrical usage for my personal accounts.  I live in an owner occupied 3 family and you can see the usage for two of the apartments that I occupy and the common meter which provides power for the rear and front LED lighting, basement outlets and outside outlets.  I have electric heat pumps that I use to cool in the summer and offset oil consumption in the winter.
 
@@ -47,13 +46,19 @@ https://user-images.githubusercontent.com/447806/139498663-d519bf4c-0e98-4e00-a3
 https://user-images.githubusercontent.com/447806/139498663-d519bf4c-0e98-4e00-a3f3-40af3e5503f9.png)
 
 
-### MFRED Dataset
+### Dataset 2: MFRED Dataset
+
+#### Iteration 1: Radial Line Chart
 
 In these plots I pivoted to the new MFRED dataset.
 Below is a radial line chart of the MFRED 1 hour aggregation of the data.  I aggregated the 15 minute aggregate to an hour to make it more manageable.  The 15 min aggregation was too large to be imported into vizhub or gist.
 [![image](
 https://user-images.githubusercontent.com/447806/140840065-1eaf3cca-f6f1-46bd-ada9-32c2a4f4a940.png)](
 https://user-images.githubusercontent.com/447806/140840065-1eaf3cca-f6f1-46bd-ada9-32c2a4f4a940.png)
+
+#### Iteration 2: Radial Heat Map
+
+My latest iteration grouped the data by apartment group, time of day and then calculated the distribution between the extent of the kW for all apartment groups into 5 bins.
 
 ## Sketches
 
