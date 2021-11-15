@@ -51,19 +51,18 @@ https://user-images.githubusercontent.com/447806/139498663-d519bf4c-0e98-4e00-a3
 #### Iteration 1: Radial Line Chart
 
 In these plots I pivoted to the new MFRED dataset.
-Below is a radial line chart of the MFRED 1 hour aggregation of the data.  I aggregated the 15 minute aggregate to an hour to make it more manageable.  The 15 min aggregation was too large to be imported into vizhub or gist.
+Below is a radial line chart of the MFRED 1 hour aggregation of the data.  I aggregated the 15 minute aggregate to an hour to make it more manageable.  The 15 min aggregation was too large to be imported into vizhub or gist.  The first iteration used a radial line chart; however, you can see that due to the amount of data and therefore lines generated, the visualization doesn't work well.  I could try using opacity; however, there are too many lines so that won't work.
 [![image](
 https://user-images.githubusercontent.com/447806/140840065-1eaf3cca-f6f1-46bd-ada9-32c2a4f4a940.png)](
 https://user-images.githubusercontent.com/447806/140840065-1eaf3cca-f6f1-46bd-ada9-32c2a4f4a940.png)
 
-#### Iteration 2: Radial Heat Map
+#### Iteration 2: Radial Heat Map Single Color Scale for All Apartment Groups
+Instead I shifted to using a radial heat map of the average kW energy consumed for each time of day for each apartment group.  The darker the green the more energy that is consumed.  The visualization below shows all 26 apartment group as concentric circles starting with AG 1 as the smallest circle.  You can see there is quite a range between the smallest and largest apartment groups so the variation in electricity usage for time of day isn't that pronounced.  When a single apartment group is selected, the variation becomes more pronounced since the entire color range is used for a smaller kW range.  In the next iteration, I used a separate linear scale to drive the heatmap color calculation for each apartment group.
 
-My latest iteration grouped the data by apartment group, time of day and then calculated the average kW energy consumption for each hourly time of day and each apartment group.  Below are visualizations that show apartment group 1, apartment group 26 and all the apartment groups.  The first one used a radial line chart; however, you can see that due to the amount of data and therefore lines generated, the visualization doesn't work well.  I could try using opacity; however, there are too many lines so that won't work.
 [![image](
 https://user-images.githubusercontent.com/447806/141706715-2a79cd06-918c-433c-a707-453b5e2f22bd.png)](
 https://user-images.githubusercontent.com/447806/141706715-2a79cd06-918c-433c-a707-453b5e2f22bd.png)
 
-Instead I shifted to using a radial heat map of the average kW energy consumed for each time of day for each apartment group.  The darker the green the more energy that is consumed.  You can see there is quite a range between the smallest and largest apartment groups so the variation in electricity usage for time of day isn't that pronounced.  When a single apartment group is selected, the variation becomes more pronounced since the entire color range is used for a smaller kW range.  In the next iteration, I used a separate linear scale to drive the heatmap color calculation for each apartment group.
 
 [![image](
 https://user-images.githubusercontent.com/447806/141706722-a1ab9aa5-a828-4e70-adcb-87bce6921312.png)](
@@ -73,6 +72,7 @@ https://user-images.githubusercontent.com/447806/141706722-a1ab9aa5-a828-4e70-ad
 https://user-images.githubusercontent.com/447806/141706723-9d4e5e9f-d1a9-4838-b0d8-fffe9940e597.png)](
 https://user-images.githubusercontent.com/447806/141706723-9d4e5e9f-d1a9-4838-b0d8-fffe9940e597.png)
 
+#### Iteration 3: Radial Heat Map Color Scale for Each Apartment Group
 When each apartment group can utilize the full range of greens in the color scale, the daily usage pattern becomes more pronounced and the cyclical time of day usage patterns within an apartment group and across groups is more easily detected.
 [![image](
 https://user-images.githubusercontent.com/447806/141706733-d818e287-dede-4c38-abcd-48417a8f4425.png)](
