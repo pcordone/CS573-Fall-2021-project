@@ -58,7 +58,22 @@ https://user-images.githubusercontent.com/447806/140840065-1eaf3cca-f6f1-46bd-ad
 
 #### Iteration 2: Radial Heat Map
 
-My latest iteration grouped the data by apartment group, time of day and then calculated the distribution between the extent of the kW for all apartment groups into 5 bins.
+My latest iteration grouped the data by apartment group, time of day and then calculated the average kW energy consumption for each hourly time of day and each apartment group.  Below are visualizations that show apartment group 1, apartment group 26 and all the apartment groups.
+[![image](
+https://user-images.githubusercontent.com/447806/141706715-2a79cd06-918c-433c-a707-453b5e2f22bd.png)](
+https://user-images.githubusercontent.com/447806/141706715-2a79cd06-918c-433c-a707-453b5e2f22bd.png)
+
+[![image](
+https://user-images.githubusercontent.com/447806/141706722-a1ab9aa5-a828-4e70-adcb-87bce6921312.png)](
+https://user-images.githubusercontent.com/447806/141706722-a1ab9aa5-a828-4e70-adcb-87bce6921312.png)
+
+[![image](
+https://user-images.githubusercontent.com/447806/141706723-9d4e5e9f-d1a9-4838-b0d8-fffe9940e597.png)](
+https://user-images.githubusercontent.com/447806/141706723-9d4e5e9f-d1a9-4838-b0d8-fffe9940e597.png)
+
+[![image](
+https://user-images.githubusercontent.com/447806/141706733-d818e287-dede-4c38-abcd-48417a8f4425.png)](
+https://user-images.githubusercontent.com/447806/141706733-d818e287-dede-4c38-abcd-48417a8f4425.png)
 
 ## Sketches
 
