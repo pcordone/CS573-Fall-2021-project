@@ -117,10 +117,15 @@ Week 11
 Week 12
 * Code a heatmap of the binned data above.  Add a drop down selection for choosing kVAR and kW.
 * Try facet visualization of above by AG or I may try concentric heatmaps of above by AG.
-* I will attempt using the javascript template for preprocessing the data that Prof. Kelleher sent me to create a grouping/binning preprocessor of the full 1 second dataset.
+* Incorporate the d3 library into the javascript template for preprocessing the data that Prof. Kelleher sent me to create a grouping/binning preprocessor of the 15 minute aggregate dataset.  Meet with Prof. Kelleher to troubleshoot and resolve bugs.  Utilize the new summary dataset in my visualization and get it to render hour long aggregates.
 
 Week 13
-* Export visualization and attempt to host it on gtihub.  If I run into too many technical problems I may abandond this effort.
+* Modify the preprocessor to support 15 minute and 1 hour aggregates of summary data and incorporate the dataset into my visualiation.
+* Add a choice for render the 15 minute and 1 hour datasets as a radio button selection.
+* Modify the preprocessor to support kVAR summary data in addition to the existing kW summary data.
+* Modify the visualization to render the kVAR summary data.
+* Modify the visualization to allow selection of more than one apartment group as a checkbox instead of a menu items for a single selection.
+* Get brushing to select a subset of the yearly summary data to work.
 
 Week 14
 * Experiment with animations and add hover over text.
