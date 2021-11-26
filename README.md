@@ -118,6 +118,7 @@ Week 12
 * Code a heatmap of the binned data above.  Add a drop down selection for choosing kVAR and kW.
 * Try facet visualization of above by AG or I may try concentric heatmaps of above by AG.
 * Incorporate the d3 library into the javascript template for preprocessing the data that Prof. Kelleher sent me to create a grouping/binning preprocessor of the 15 minute aggregate dataset.  Meet with Prof. Kelleher to troubleshoot and resolve bugs.  Utilize the new summary dataset in my visualization and get it to render hour long aggregates.
+* Fix the bug where dates are in UTC and I was creating date objects in EDT (that's why the usage data was shifted 5 hours into the past).
 
 Week 13
 * Modify the preprocessor to support 15 minute and 1 hour aggregates of summary data and incorporate the dataset into my visualiation.
