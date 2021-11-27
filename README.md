@@ -117,13 +117,12 @@ Week 11
 Week 12
 * Code a heatmap of the binned data above.  Add a drop down selection for choosing kVAR and kW.
 * Try facet visualization of above by AG or I may try concentric heatmaps of above by AG.
-* Incorporate the d3 library into the javascript template for preprocessing the data that Prof. Kelleher sent me to create a grouping/binning preprocessor of the 15 minute aggregate dataset.  Meet with Prof. Kelleher to troubleshoot and resolve bugs.  Utilize the new summary dataset in my visualization and get it to render hour long aggregates.
+* Incorporate the d3 library into the javascript template for preprocessing the data that Prof. Kelleher sent me to create a grouping/binning preprocessor of the 15 minute aggregate dataset into 15 minute and 60 minute statistical summary data such as average kW, min kW, max kW for each period.  Preprocessing the data greatly reduces the size of the input file.  Meet with Prof. Kelleher to troubleshoot and resolve bugs.  Utilize the new summary dataset in my visualization and get it to render.
 * Fix the bug where dates are in UTC and I was creating date objects in EDT (that's why the usage data was shifted 5 hours into the past).
 
 Week 13
-* Modify the preprocessor to support 15 minute and 1 hour aggregates of summary data and incorporate the dataset into my visualiation.
 * Add a choice for render the 15 minute and 1 hour datasets as a radio button selection.
-* Modify the preprocessor to support kVAR summary data in addition to the existing kW summary data.
+* Modify the preprocessor to support kVAR summary data in addition to the existing kW summary data as well as group by month and year so that the data can be filtered through brushing to a smaller subset of the year.
 * Modify the visualization to render the kVAR summary data.
 * Modify the visualization to allow selection of more than one apartment group as a checkbox instead of a menu items for a single selection.
 * Get brushing to select a subset of the yearly summary data to work.
