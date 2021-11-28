@@ -83,6 +83,9 @@ This visualization uses a 15 minute time interval for aggregation.
 https://user-images.githubusercontent.com/447806/142347476-70200c71-2e47-4360-9a4e-116b642c4908.png)](
 https://user-images.githubusercontent.com/447806/142347476-70200c71-2e47-4360-9a4e-116b642c4908.png)
 
+#### Iteration 4: Preprocessing Data
+Preprocessing the data improved performance of the visualization (for brushing in paricular) so I created a preprocessing node appication that used d3 https://github.com/pcordone/dataToSummaryCSV by starting with Professor Kellher's 
+
 ## Sketches
 
 This visualization sketch shows a stacked bar graph wrapped around a circle representing the usage for the 12 months of the year for 3 accounts.  The rationale is that by wrapping the bar graph around a circle, the viewer can look to the opposite side of the circle to see usage patterns for the opposite season.  The visualization could also show usage for the same account with the bars closer to the origin for the first year and the bars further from the origin for the second year.  Multiple accounts could also be rendered for two consecutive years by grouping the accounts visually as groups of consecutive circles of accounts.  An issue with this visualization is that the area of segments will increase if the height of the bars represent usage.  That may be perceived as misleading since it will cause the user to believe that the outer bar segments are consuming more electricity.
@@ -117,7 +120,7 @@ Week 11
 Week 12
 * Code a heatmap of the binned data above.  Add a drop down selection for choosing kVAR and kW.
 * Try facet visualization of above by AG or I may try concentric heatmaps of above by AG.
-* Incorporate the d3 library into the javascript template for preprocessing the data that Prof. Kelleher sent me to create a grouping/binning preprocessor of the 15 minute aggregate dataset into 15 minute and 60 minute statistical summary data such as average kW, min kW, max kW for each period.  Preprocessing the data greatly reduces the size of the input file.  Meet with Prof. Kelleher to troubleshoot and resolve bugs.  Utilize the new summary dataset in my visualization and get it to render.
+* Incorporate the d3 library into the javascript template for preprocessing the data that Prof. Kelleher sent me https://github.com/curran/data/blob/gh-pages/pew/religion/rawDataToCSV.js to create a grouping/binning preprocessor of the 15 minute aggregate dataset into 15 minute and 60 minute statistical summary data such as average kW, min kW, max kW for each period https://github.com/pcordone/dataToSummaryCSV.  Preprocessing the data greatly reduces the size of the input file.  Meet with Prof. Kelleher to troubleshoot and resolve bugs.  Utilize the new summary dataset in my visualization and get it to render.
 * Fix the bug where dates are in UTC and I was creating date objects in EDT (that's why the usage data was shifted 5 hours into the past).
 
 Week 13
