@@ -84,7 +84,13 @@ https://user-images.githubusercontent.com/447806/142347476-70200c71-2e47-4360-9a
 https://user-images.githubusercontent.com/447806/142347476-70200c71-2e47-4360-9a4e-116b642c4908.png)
 
 #### Iteration 4: Preprocessing Data
-Preprocessing the data improved performance of the visualization (for brushing in paricular) so I created a preprocessing node appication that used d3 https://github.com/pcordone/dataToSummaryCSV by starting with Professor Kellher's 
+Preprocessing the data improved performance of the visualization (for brushing in paricular) so I created a preprocessing node appication that used d3 https://github.com/pcordone/dataToSummaryCSV by starting with Professor Kellher's code at https://github.com/curran/data/blob/gh-pages/pew/religion/rawDataToCSV.js.  The preprocessor groups the data by apartment group, first of the month date, and time of day and calculates the average, max and min kW and kVAR values.  The visualization can then aggregate based on month for the context view and time of day for the focus view.
+
+I also use flexbox to layout the page with the controls and context visualiation with brushing on the left and focus visualization on the right.
+
+[![image](
+https://user-images.githubusercontent.com/447806/144234593-749f47ff-23f1-4998-a383-01d0f14bca60.png)](
+https://user-images.githubusercontent.com/447806/144234593-749f47ff-23f1-4998-a383-01d0f14bca60.png)
 
 ## Sketches
 
@@ -127,11 +133,13 @@ Week 13
 * Add a choice for render the 15 minute and 1 hour datasets as a radio button selection.
 * Modify the preprocessor to support kVAR summary data in addition to the existing kW summary data as well as group by month and year so that the data can be filtered through brushing to a smaller subset of the year.
 * Modify the visualization to render the kVAR summary data.
-* Modify the visualization to allow selection of more than one apartment group as a checkbox instead of a menu items for a single selection.
 * Get brushing to select a subset of the yearly summary data to work.
 
 Week 14
-* Experiment with animations and add hover over text.
+* Modify the visualization to allow selection of more than one apartment group as a checkbox instead of a menu items for a single selection.
+* Change the grouping from month to day or week to allow finer grained brushing period.
+* Allow focus radial axis selection of time of day and week of year.
+* Change the flexbox layout to allow the brushing to extend the width of the visualization.
 
 Week 15 
 * Polishing touches.
