@@ -92,6 +92,14 @@ I also use flexbox to layout the page with the controls and context visualiation
 https://user-images.githubusercontent.com/447806/144234593-749f47ff-23f1-4998-a383-01d0f14bca60.png)](
 https://user-images.githubusercontent.com/447806/144234593-749f47ff-23f1-4998-a383-01d0f14bca60.png)
 
+#### Final Project
+In the final project, I changed the layout so that the controls were along the top to make allow enough horizontal space to allow the brushing to be in week increments (instead of months) and make more room for the focus visualization.  I also allowed multiple selection on the apartment group types, changed the radius of the circles so that they fill the screen, allowd a selection for the context minimum bar graphs to be zero or the minimum y value.  There were also other changes to the code that reduced the size of the dataset by performing some aggregation in the visualization.
+
+[![image](
+https://user-images.githubusercontent.com/447806/144941146-6495db24-f27b-461e-9ea7-94f209483755.png)](
+https://user-images.githubusercontent.com/447806/144941146-6495db24-f27b-461e-9ea7-94f209483755.png)
+
+
 ## Sketches
 
 This visualization sketch shows a stacked bar graph wrapped around a circle representing the usage for the 12 months of the year for 3 accounts.  The rationale is that by wrapping the bar graph around a circle, the viewer can look to the opposite side of the circle to see usage patterns for the opposite season.  The visualization could also show usage for the same account with the bars closer to the origin for the first year and the bars further from the origin for the second year.  Multiple accounts could also be rendered for two consecutive years by grouping the accounts visually as groups of consecutive circles of accounts.  An issue with this visualization is that the area of segments will increase if the height of the bars represent usage.  That may be perceived as misleading since it will cause the user to believe that the outer bar segments are consuming more electricity.
@@ -135,14 +143,12 @@ Week 13
 * Modify the visualization to render the kVAR summary data.
 * Get brushing to select a subset of the yearly summary data to work.
 
-Week 14
-* Modify the visualization to allow selection of more than one apartment group as a checkbox instead of a menu items for a single selection.
-* Change the grouping from month to day or week to allow finer grained brushing period.
-* Allow focus radial axis selection of time of day and week of year.
+Week 14 and 15
+* Modifed the visualization to allow selection of more than one apartment group.
+* Changed the grouping from month week on the context bar graph to allow finer grained brushing period.
+* Changed the radius of the apartment group selection to expand to fill the circle.
 * Change the flexbox layout to allow the brushing to extend the width of the visualization.
-
-Week 15 
-* Polishing touches.
+* Added a choice for the minimum of the context bar chart y value to be zero or the minimum value.
 
 ## Citations
 [1]C. J. Meinrenken et al., “MFRED, 10 second interval real and reactive power for groups of 390 US apartments of varying size and vintage,” Sci Data, vol. 7, no. 1, p. 375, Nov. 2020, doi: 10.1038/s41597-020-00721-w.
