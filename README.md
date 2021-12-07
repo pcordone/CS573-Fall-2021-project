@@ -1,6 +1,6 @@
 # Data Visualization Project CS573 Fall 2021 Peter Cordone
 
-If you prefer to watch a video of my presentation, you can view it [here](https://youtu.be/F3Y1HWzXgko
+If you prefer to watch a video of my presentation, you can view it [here](https://youtu.be/F3Y1HWzXgko)
 
 ## Visualization Description, Background Information and Goals
 
