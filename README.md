@@ -1,5 +1,7 @@
 # Data Visualization Project CS573 Fall 2021 Peter Cordone
 
+If you prefer to watch a video of my presentation, you can view it [here](https://youtu.be/F3Y1HWzXgko
+
 ## Visualization Description, Background Information and Goals
 
 The goal of creating this visualization is to provide an interactive tool that will allow a user to explore electrical usage data and look for cyclical patterns of usage.  Electrical usage to a home or business is measured by a meter and understanding usage patterns is critical to energy conservation, integrating renewables and non fossile fuel heating[1].  Each meter is assocciated with an account to track usage and bill customers.  Energy consumption is measured in kilo watts or thousands of watts (abreviated kW) and power consumption or energy consumed over time is measured in kilo watt hours (abbreviated kWH).  A load is defined as an electrical device that draws power from the electrical system.  Electrical energy consist of voltage, or electromotive force, that causes current which is the movement of electrons.  Power is transferred from the electrical grid to the device through teh flow of these electrons.  If the voltage and current are in phase, then the load is purely resistive.  It is possible for voltage and current to be out of phase, meaning that energy is flowing from the grid into the load but then back out from the load and into the grid.  While the load has not consumed the energy, the movement of electrons in the electrical system does consume energy so it is important to also measure electrical power that is out of phase.  This measurement is knows as reactive power and indicated by kilo volt amps reactiave or kVAR.  Air conditioning equipment in particular provides reactive load challenges for the electrical system.
@@ -97,6 +99,7 @@ https://user-images.githubusercontent.com/447806/144234593-749f47ff-23f1-4998-a3
 In the final project, I changed the layout so that the controls were along the top to make allow enough horizontal space to allow the brushing to be in week increments (instead of months) and make more room for the focus visualization.  I also allowed multiple selection on the apartment group types, changed the radius of the circles so that they fill the screen, allowd a selection for the context minimum bar graphs to be zero or the minimum y value.  There were also other changes to the code that reduced the size of the dataset by performing some aggregation in the visualization.
 
 **Final project link** [MFRED Electrical Data Radial Heatmap](https://vizhub.com/pcordone/d8c4b6493d074159875f6442131c4226?edit=files&file=README.md&mode=full)
+**Final project video** https://youtu.be/F3Y1HWzXgko
 
 [![image](
 https://user-images.githubusercontent.com/447806/144941146-6495db24-f27b-461e-9ea7-94f209483755.png)](
