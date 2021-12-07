@@ -50,8 +50,9 @@ https://user-images.githubusercontent.com/447806/139498663-d519bf4c-0e98-4e00-a3
 
 #### Iteration 1: Radial Line Chart
 
-In these plots I pivoted to the new MFRED dataset.
-Below is a radial line chart of the MFRED 1 hour aggregation of the data.  I aggregated the 15 minute aggregate to an hour to make it more manageable.  The 15 min aggregation was too large to be imported into vizhub or gist.  The first iteration used a radial line chart; however, you can see that due to the amount of data and therefore lines generated, the visualization doesn't work well.  I could try using opacity; however, there are too many lines so that won't work.
+In these plots I pivoted to the new MFRED dataset from the paper [MFRED, 10 second interval real and reactive power for groups of 390 US apartments of varying size and vintage](https://www.nature.com/articles/s41597-020-00721-w).  Electrical usage data was sampled from 390 apartments of various sizes in 10 seconds intervals for the year 2019.
+
+I created a radial line chart of the MFRED 1 hour aggregation of the data.  I aggregated the 15 minute aggregate to an hour to make it more manageable.  The 15 min aggregation was too large to be imported into vizhub or gist.  The first iteration used a radial line chart; however, you can see that due to the amount of data and therefore lines generated, the visualization doesn't work well.  I could try using opacity; however, there are too many lines so that won't work.
 [![image](
 https://user-images.githubusercontent.com/447806/140840065-1eaf3cca-f6f1-46bd-ada9-32c2a4f4a940.png)](
 https://user-images.githubusercontent.com/447806/140840065-1eaf3cca-f6f1-46bd-ada9-32c2a4f4a940.png)
@@ -95,10 +96,11 @@ https://user-images.githubusercontent.com/447806/144234593-749f47ff-23f1-4998-a3
 #### Final Project
 In the final project, I changed the layout so that the controls were along the top to make allow enough horizontal space to allow the brushing to be in week increments (instead of months) and make more room for the focus visualization.  I also allowed multiple selection on the apartment group types, changed the radius of the circles so that they fill the screen, allowd a selection for the context minimum bar graphs to be zero or the minimum y value.  There were also other changes to the code that reduced the size of the dataset by performing some aggregation in the visualization.
 
+**Final project link** [MFRED Electrical Data Radial Heatmap](https://vizhub.com/pcordone/d8c4b6493d074159875f6442131c4226?edit=files&file=README.md&mode=full)
+
 [![image](
 https://user-images.githubusercontent.com/447806/144941146-6495db24-f27b-461e-9ea7-94f209483755.png)](
 https://user-images.githubusercontent.com/447806/144941146-6495db24-f27b-461e-9ea7-94f209483755.png)
-
 
 ## Sketches
 
